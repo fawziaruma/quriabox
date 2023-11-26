@@ -5,15 +5,12 @@
 }
 body{
     background-color: #feecd6;
-    /* overflow-x: hidden; */
     font-family: 'Poppins', sans-serif;
 }
-body::-webkit-scrollbar {
-    display: none;
-  }
+
 /* .....navbar...... */
 .nav-item{
-    margin: 0px 10px;
+    margin: 0px 7px;
 }
 .nav-link{
     color: black;
@@ -353,9 +350,8 @@ body::-webkit-scrollbar {
     margin-left: 30px;
 }
 
+}
 
-    
-  }
  
 
 
