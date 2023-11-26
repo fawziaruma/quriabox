@@ -4,8 +4,13 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #fff4e2;
+    background-color: #feecd6;
+    /* overflow-x: hidden; */
+    font-family: 'Poppins', sans-serif;
 }
+body::-webkit-scrollbar {
+    display: none;
+  }
 /* .....navbar...... */
 .nav-item{
     margin: 0px 10px;
@@ -17,6 +22,7 @@ body{
 #nav-icon{
     border: 1px solid black;
     padding: 0px 5px;
+    height: 35px;
     border: none;
     background-color: rgb(247, 228, 221);
 }
@@ -30,6 +36,8 @@ body{
     font-size: 15px;
     font-weight: 600;
     margin-left: 10px;
+    margin-top: 7px;
+    
 }
 /* ......services...... */
 #services p{
@@ -91,6 +99,10 @@ body{
     font-weight: 600;
     margin-bottom: 20px;
   }
+  #card button:hover{
+    background-color: orangered;
+    color: white;
+  }
   #card #btn{
     width: 220px;
     background-color:orangered;
@@ -99,11 +111,12 @@ body{
     font-weight: 600;
     margin-bottom: 20px;
   }
+  
 
-/* ...clients..... */
 /* .....fast delivary...... */
 #fast-delivary{
     background: linear-gradient(-90deg, rgba(8, 32, 50, 0.8), rgba(8, 32, 50, 0.8)), url(/image/hero.png), #082032;
+    border-radius: 5px;
 }
 #delivary-content{
    margin: 130px 0px;
@@ -121,6 +134,7 @@ body{
     padding-top: 10px;
     font-weight: 600;
 }
+
 /* .....conatct form....... */
 #form-text h6{
     padding-left: 50px;
@@ -282,6 +296,26 @@ body{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 
   }
+  /* ....... */
+  .arrow i{
+    border: 1px solid black;
+    font-size: 20px;
+    padding: 7px 10px;
+    border-radius: 50px;
+    color: white;
+    background-color: orangered;
+    border: none;
+  }
+  .arrow{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    bottom: 50px;
+    right: 50px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+}
 
 
 @media (max-width: 768px) {
@@ -290,14 +324,38 @@ body{
         margin-left: 15px;
         width: 510px;
     }
+     #last-award{
+    margin-left: 160px;
+    } 
+    #delivary{
+        margin: 0px 15px;
+    }
+    #form{
+        margin-left: 35px;
+    }
+    #location-info{
+        margin-top: -0px;
+        width: 512px;
+    }
+    .arrow{
+        bottom: 30px;
+        margin-right: -20px;
+    }
+     #nav-icon{
+        width: 70px;
+        margin-left: 220px;
+    } 
 
  }
- /* @media (min-width: 776px) {
-    #second-footer{
-        height: auto;
-    }
+ @media (min-width: 576px) { 
+#card{
+    align-items: center;
+    margin-left: 30px;
+}
 
- } */
+
+    
+  }
  
 
 

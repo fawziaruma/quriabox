@@ -17,10 +17,14 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
     />
+    <!-- ........google font......... -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,700;1,500;1,600&family=Poppins:ital,wght@0,400;0,600;0,700;1,500&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <nav class="navbar sticky-top navbar-expand-lg navbar-light" style="background-color: #E6E6E6;">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light" style="background-color: #E6E6E6;">
             <div class="container">
               <a class="navbar-brand" href="#"><img src="/image/logo.png" alt=""></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,25 +44,24 @@
                   <li class="nav-item" id="nav-icon">
                     <a class="nav-link" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
                   </li>
+                  <li class="nav-item">
+                    <button class="btn btn-outline-success" type="submit" id="nav-btn">Contact US</button>
+                  </li>
                 </ul>
-                <form class="d-flex">
-                  <button class="btn btn-outline-success" type="submit" id="nav-btn">Contact US</button>
-                </form>
               </div>
             </div>
           </nav>
-
     </header>
     <main>
        <section>
-        <div class="container" style="margin-top: 100px;">
-          <div class="row">
-            <div class="col-md-6 ">
+        <div class="container" style="margin-top: 180px;">
+          <div class="row" id="banner">
+            <div class="col-md-6 order-md-1 order-2 pt-4 text-center text-md-start">
               <h1>A Trusted Provider Of <br><span class="fw-bold">Couriar Services</span></h1>
               <p class="text-muted mt-2">We delevired your products safelt to <br>your home in a reasonable time.</p>
               <button class="btn btn-outline-success mt-4" id="nav-btn">Get Started <i class="fa-solid fa-arrow-right"></i></button>
             </div>
-            <div class="col-md-6 ">
+            <div class="col-md-6 order-md-2 order-1">
               <img src="image/hero.png" alt="" class="img-fluid">
             </div>
           </div>
@@ -75,12 +78,12 @@
             <div class="card" id="card" style="margin-top: 70px;">
               <figure class="text-center"><img src="/image/assert/icon-1.png" alt="Shoes" /></figure>
               <div class="card-body">
-                <h5 class="card-title text-center fw-bold">personal services</h5>
-                <p class=" text-muted">You can trust us to safely deliver your most sensitive document to the specific area in a short time.</p>
+                <h5 class="card-title text-center fw-bold">Business Services</h5>
+                <p class=" text-muted">Offering home delivery around the city, where your products will be at your doorstep whitin 48-72 hours</p>
                 <ul class="styled-list">
-                  <li>Unlimited Bandwidth</li>
-                  <li>Encrypted Connection</li>
-                  <li>Yes Traffic Logs</li>
+                  <li>Corporate goods</li>
+                  <li>Shipment</li>
+                  <li>Accesories</li>
                 </ul>
 
                   <button class="btn btn-primary">Learn More</button>
@@ -92,8 +95,8 @@
             <div class="card" id="card" style="margin-top: 70px;">
               <figure class="text-center"><img src="/image/assert/icon-2.png" alt="Shoes" /></figure>
               <div class="card-body">
-                <h5 class="card-title text-center fw-bold">personal services</h5>
-                <p class=" text-muted">You can trust us to safely deliver your most sensitive document to the specific area in a short time.</p>
+                <h5 class="card-title text-center fw-bold">Statewide Services</h5>
+                <p class=" text-muted">Offering home delivery around the city, where your products will be at your doorstep whitin 48-72 hours</p>
                 <ul class="styled-list">
                   <li>Unlimited Bandwidth</li>
                   <li>Encrypted Connection</li>
@@ -126,36 +129,36 @@
        </section>
        <!-- .....award........ -->
        <section class="container">
-        <div class="row" id="award-section">
-          <div class="col-lg-2 col-sm-12 col-12">
+        <div class="row justify-content-center text-center" id="award-section">
+          <div class="col-lg-2 col-4" >
             <img src="/image/assert/awards.png" alt="">
             <div class="award-info">
               <h4>2<span id="six">6</span>+</h4>
               <h6>Awards Won</h6>
             </div>
           </div>
-          <div class="col-lg-2 col-sm-12 col-12">
+          <div class="col-lg-2 col-4 ">
             <img src="/image/assert/states.png" alt="">
             <div class="award-info">
               <h4><span id="six">6</span>5+</h4>
               <h6>States Covered</h6>
             </div>
           </div>
-          <div class="col-lg-2 col-sm-12 col-12">
+          <div class="col-lg-2 col-4">
             <img src="/image/assert/clients.png" alt="">
             <div class="award-info">
               <h4><span id="six">6</span><span id="six">8</span>9 <span id="six">K</span>+</h4>
               <h6>Happy Clients</h6>
             </div>
           </div>
-          <div class="col-lg-2 col-sm-12 col-12">
+          <div class="col-lg-2 col-4">
             <img src="/image/assert/goods.png" alt="">
             <div class="award-info">
               <h4>1<span id="six">3</span>0<span id="six" style="font-weight: 700;">M</span>+</h4>
               <h6>Goods delivered</h6>
             </div>
           </div>
-          <div class="col-lg-2 col-sm-12 col-12">
+          <div class="col-lg-2 text-start" id="last-award">
             <img src="/image/assert/business.png" alt="">
             <div class="award-info">
               <h4>1<span id="six">3</span>0 <span id="six" style="font-weight: 700;">M</span>+</h4>
@@ -166,8 +169,8 @@
         
        </section>
        <!-- ......fast delivary....... -->
-       <section style="margin-top: 100px;">
-        <div class="container" >
+       <section style="margin-top: 90px;" id="delivary">
+        <div class="container " >
           <div class="row" id="fast-delivary">
             <div class="text-center" id="delivary-content">
             <i class="fa-solid fa-play"></i>
@@ -185,155 +188,156 @@
             <h2>Our Awsome Clients</h2>
           </div>
         </div>
-        <div class="row" style="margin-top: 50px;">
-          <div class="owl-carousel owl-theme">
-            <div class="item col-md-4">
-              <div class="card owl-card" style="width: 22rem;">
-                <div class="card-body" id="card-body">
-                  <h5 class="card-title">Fantastic service!</h5>
-                  <p class="card-text">Review our community chat for the most <br>frequently asked questions and document <br> answers for our product docs.</p>
-                <div class="d-flex ">
-                  <div>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  </div>
-                  <div class="d-flex px-4" id="card-content">
-                    <img src="/image/assert/isak.png" alt="">
-                   <div>
-                    <h6>John Adams</h6>
-                    <p>Chief Executive.DLF</p>
-                   </div>
+          <div class="row"  style="margin-top: 50px;" id="owl">
+            <div class="col-lg-12">
+              <div class="owl-carousel owl-theme">
+                <div class="item col-md-6 ">
+                  <div class="card owl-card  mx-auto" style="width: 22rem;">
+                    <div class="card-body" id="card-body">
+                      <h5 class="card-title">Fantastic service!</h5>
+                      <p class="card-text">Review our community chat for the most <br>frequently asked questions and document <br> answers for our product docs.</p>
+                    <div class="d-flex ">
+                      <div>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      </div>
+                      <div class="d-flex px-4" id="card-content">
+                        <img src="/image/assert/isak.png" alt="">
+                       <div>
+                        <h6>John Adams</h6>
+                        <p>Chief Executive.DLF</p>
+                       </div>
+                      </div>
+                    </div>
+                    </div>
                   </div>
                 </div>
+                 <div class="item col-md-6">
+                  <div class="card owl-card  mx-auto" style="width: 22rem;">
+                    <div class="card-body" id="card-body">
+                      <h5 class="card-title">Fantastic service!</h5>
+                      <p class="card-text">Review our community chat for the most <br>frequently asked questions and document <br> answers for our product docs.</p>
+                    <div class="d-flex ">
+                      <div>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      </div>
+                      <div class="d-flex px-4" id="card-content">
+                        <img src="/image/assert/petter.png" alt="">
+                       <div>
+                        <h6>Yves Tanguy</h6>
+                        <p>Ceo</p>
+                       </div>
+                      </div>
+                    </div>
+                    </div>
+                  </div>
                 </div>
-              </div>
+                <div class="item col-md-6">
+                  <div class="card owl-card  mx-auto" style="width: 22rem;">
+                    <div class="card-body" id="card-body">
+                      <h5 class="card-title">Fantastic service!</h5>
+                      <p class="card-text">Review our community chat for the most <br>frequently asked questions and document <br> answers for our product docs.</p>
+                    <div class="d-flex">
+                      <div>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      </div>
+                      <div class="d-flex px-4" id="card-content">
+                        <img src="/image/assert/simon.png" alt="">
+                       <div>
+                        <h6>John Adams</h6>
+                        <p>Chief Executive.DLF</p>
+                       </div>
+                      </div>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+                 <div class="item col-md-6">
+                  <div class="card owl-card  mx-auto" style="width: 22rem;">
+                    <div class="card-body" id="card-body">
+                      <h5 class="card-title">Fantastic service!</h5>
+                      <p class="card-text">Review our community chat for the most <br>frequently asked questions and document <br> answers for our product docs.</p>
+                    <div class="d-flex ">
+                      <div>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      </div>
+                      <div class="d-flex px-4" id="card-content">
+                        <img src="/image/assert/isak.png" alt="">
+                       <div>
+                        <h6>John Adams</h6>
+                        <p>Chief Executive.DLF</p>
+                       </div>
+                      </div>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+                 <div class="item col-md-6">
+                  <div class="card owl-card  mx-auto" style="width: 22rem;">
+                    <div class="card-body" id="card-body">
+                      <h5 class="card-title">Fantastic service!</h5>
+                      <p class="card-text">Review our community chat for the most <br>frequently asked questions and document <br> answers for our product docs.</p>
+                    <div class="d-flex ">
+                      <div>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      </div>
+                      <div class="d-flex px-4" id="card-content">
+                        <img src="/image/assert/petter.png" alt="">
+                       <div>
+                        <h6>John Adams</h6>
+                        <p>Ceo</p>
+                       </div>
+                      </div>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+                 <div class="item col-md-6">
+                  <div class="card owl-card  mx-auto" style="width: 22rem;">
+                    <div class="card-body" id="card-body">
+                      <h5 class="card-title">Fantastic service!</h5>
+                      <p class="card-text">Review our community chat for the most <br>frequently asked questions and document <br> answers for our product docs.</p>
+                    <div class="d-flex ">
+                      <div>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      </div>
+                      <div class="d-flex px-4" id="card-content">
+                        <img src="/image/assert/petter.png" alt="">
+                       <div>
+                        <h6>John Adams</h6>
+                        <p>Chief Executive.DLF</p>
+                       </div>
+                      </div>
+                    </div>
+                    </div>
+                  </div>
+                </div>
             </div>
-             <div class="item col-md-4">
-              <div class="card owl-card" style="width: 22rem;">
-                <div class="card-body" id="card-body">
-                  <h5 class="card-title">Fantastic service!</h5>
-                  <p class="card-text">Review our community chat for the most <br>frequently asked questions and document <br> answers for our product docs.</p>
-                <div class="d-flex ">
-                  <div>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  </div>
-                  <div class="d-flex px-4" id="card-content">
-                    <img src="/image/assert/petter.png" alt="">
-                   <div>
-                    <h6>Yves Tanguy</h6>
-                    <p>Ceo</p>
-                   </div>
-                  </div>
-                </div>
-                </div>
-              </div>
             </div>
-            <div class="item col-md-4">
-              <div class="card owl-card" style="width: 22rem;">
-                <div class="card-body" id="card-body">
-                  <h5 class="card-title">Fantastic service!</h5>
-                  <p class="card-text">Review our community chat for the most <br>frequently asked questions and document <br> answers for our product docs.</p>
-                <div class="d-flex ">
-                  <div>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  </div>
-                  <div class="d-flex px-4" id="card-content">
-                    <img src="/image/assert/simon.png" alt="">
-                   <div>
-                    <h6>John Adams</h6>
-                    <p>Chief Executive.DLF</p>
-                   </div>
-                  </div>
-                </div>
-                </div>
-              </div>
-            </div>
-             <div class="item">
-              <div class="card owl-card" style="width: 22rem;">
-                <div class="card-body" id="card-body">
-                  <h5 class="card-title">Fantastic service!</h5>
-                  <p class="card-text">Review our community chat for the most <br>frequently asked questions and document <br> answers for our product docs.</p>
-                <div class="d-flex ">
-                  <div>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  </div>
-                  <div class="d-flex px-4" id="card-content">
-                    <img src="/image/assert/isak.png" alt="">
-                   <div>
-                    <h6>John Adams</h6>
-                    <p>Chief Executive.DLF</p>
-                   </div>
-                  </div>
-                </div>
-                </div>
-              </div>
-            </div>
-             <div class="item">
-              <div class="card owl-card" style="width: 22rem;">
-                <div class="card-body" id="card-body">
-                  <h5 class="card-title">Fantastic service!</h5>
-                  <p class="card-text">Review our community chat for the most <br>frequently asked questions and document <br> answers for our product docs.</p>
-                <div class="d-flex ">
-                  <div>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  </div>
-                  <div class="d-flex px-4" id="card-content">
-                    <img src="/image/assert/petter.png" alt="">
-                   <div>
-                    <h6>John Adams</h6>
-                    <p>Ceo</p>
-                   </div>
-                  </div>
-                </div>
-                </div>
-              </div>
-            </div>
-             <div class="item" id="item">
-              <div class="card owl-card" style="width: 22rem;">
-                <div class="card-body" id="card-body">
-                  <h5 class="card-title">Fantastic service!</h5>
-                  <p class="card-text">Review our community chat for the most <br>frequently asked questions and document <br> answers for our product docs.</p>
-                <div class="d-flex ">
-                  <div>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  </div>
-                  <div class="d-flex px-4" id="card-content">
-                    <img src="/image/assert/petter.png" alt="">
-                   <div>
-                    <h6>John Adams</h6>
-                    <p>Chief Executive.DLF</p>
-                   </div>
-                  </div>
-                </div>
-                </div>
-              </div>
-            </div>
-        </div>
-        </div>
-        
+          </div> 
       </section>
       <!-- ......form........ -->
       <section class="container" style="margin-top: 100px;">
@@ -416,13 +420,13 @@
                   <img src="/image/logo.png" alt="">
                   <p class="">The Most trusted courier <br>company in your area.</p>
                 </div>
-                <div class="col-md-2" id="foo-right">
+                <div class="col-md-2 col-6" id="foo-right">
                   <h6>Other links</h6>
                   <p>Blogs</p>
                   <p>Movers website</p>
                   <p>Traffic Update</p>
                 </div>
-                <div class="col-md-2" id="foo-right">
+                <div class="col-md-2 col-6" id="foo-right">
                  <h6>Services</h6>
                  <p>Corporate goods</p>
                  <p>Artworks</p>
@@ -439,15 +443,13 @@
           </div>
         </section>
         <section class="container">
-          <p class="text-white" id="copyright">All right Reserved &copy; quriabox, 2023
+          <p class="text-white " id="copyright">All right Reserved &copy; quriabox, 2023
           </p>
         </section>
         </section>
        
     </footer>
-    <section class="container">
-      
-    </section>
+    <a href="#" class="arrow"><i class="fa-solid fa-arrow-up"></i></a>
     
 
 
@@ -467,15 +469,18 @@
   loop:true,
   margin:10,
   nav:false,
+  responsiveClass: true,
   autoplay:true,
   // autoplayTimeout:3000,
   responsive:{
       0:{
           items:1
       },
-      600:{
-          items:3
+      
+      768:{
+        items:1
       },
+      
       1000:{
           items:3
       }
