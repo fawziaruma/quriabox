@@ -27,6 +27,9 @@ body{
     background-color: orangered;
     border: none;
     color: white;
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 10px;
 }
 /* ......services...... */
 #services p{
@@ -244,6 +247,41 @@ body{
     color: #828291;
     font-weight: 600;
 }
+#card-body h5{
+    font-size: 17px;
+    font-weight: 700;
+    color: orangered;
+
+}
+#card-body p{
+    font-size: 15px;
+    color: #828291;
+    padding-top: 7px;
+}
+#card-body i{
+    color: orangered;
+}
+#card-content img{
+    width: 50px;
+    height: 48px;
+}
+#card-content h6{
+    padding-left: 7px;
+    font-size: x-small;
+    color: #828291;
+    font-weight: 600;
+    margin-bottom: -2px;
+}
+#card-content p{
+    padding-left: 7px;
+    font-size: x-small;
+    color: #828291;
+    font-weight: 600;
+}
+.owl-card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+  }
 
 
 @media (max-width: 768px) {
