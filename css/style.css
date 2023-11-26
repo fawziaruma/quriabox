@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #fff4e2;
+}
+/* .....navbar...... */
+.nav-item{
+    margin: 0px 10px;
+}
+.nav-link{
+    color: black;
+    font-weight: 500;
+}
+#nav-icon{
+    border: 1px solid black;
+    padding: 0px 5px;
+    border: none;
+    background-color: rgb(247, 228, 221);
+}
+#nav-icon i{
+    color: orangered;
+}
+#nav-btn{
+    background-color: orangered;
+    border: none;
+    color: white;
+}
+/* ......services...... */
+#services p{
+    color: orangered;
+    font-size: 20px;
+    font-weight: 600;
+   margin-bottom: 10px;
+}
+#services h2{
+    font-size: 35px;
+    font-weight: 700;
+    font-style: initial;
+}
+/* ....award...... */
+.award-info h4{
+    color: orangered;
+    font-weight: 800;
+    padding-top: 10px;
+
+}
+#six{
+    font-size: 35px;
+}
+.award-info h6{
+    color: black;
+    font-weight: 700;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#award-section{
+    margin-top: 100px;
+    margin-left: 25px;
+    gap: 35px;
+}
+/* ....... */
+.styled-list {
+    list-style-type: none; 
+    margin-left: -35px;
+  }
+  .styled-list li{
+    color: gray;
+  }
+  
+  .styled-list li::before {
+    content: '•'; 
+    color: red; 
+    margin-right: 5px; 
+  }
+  #card{
+    padding-left: 25px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    border: none;
+  }
+  #card button{
+    width: 220px;
+    background-color: transparent;
+    border: 1px solid orangered;
+    color: orangered;
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  #card #btn{
+    width: 220px;
+    background-color:orangered;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+
+/* ...clients..... */
+/* .....fast delivary...... */
+#fast-delivary{
+    background: linear-gradient(-90deg, rgba(8, 32, 50, 0.8), rgba(8, 32, 50, 0.8)), url(/image/hero.png), #082032;
+}
+#delivary-content{
+   margin: 130px 0px;
+}
+#delivary-content i{
+    width: 45px;
+   height: 43px;
+   padding: 13px 2px;
+   border-radius: 50%;
+   background-color: orangered;
+   color: white;
+}
+#delivary-content h4{
+    color: orangered;
+    padding-top: 10px;
+    font-weight: 600;
+}
+/* .....conatct form....... */
+#form-text h6{
+    padding-left: 50px;
+    color: orangered;
+    font-weight: 700;
+
+}
+#form-text h4{
+    padding-left: 50px;
+    color: #082032;
+    font-size: 30px;
+    font-weight: 700;
+}
+#form-text p{
+    padding-left: 50px;
+    font-weight: 400;
+}
+#form input{
+    width: 290px;
+    padding: 7px 3px;
+    border-radius: 5px solid gray;
+}
+#form textarea{
+    width: 290px;
+    height: 170px;
+    padding: 5px 3px;
+}
+#form button{
+    margin-top: 25px;
+    width: 290px;
+    background-color: orangered;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    padding: 7px 0px;
+}
+/* ......location........ */
+#location-info{
+    width: 450px;
+    height: 283px;
+    background-color: whitesmoke;
+    margin-left: -10px;
+    padding: 50px 50px;
+}
+#location-info h4{
+    font-size: 20px;
+    font-weight: 700;
+}
+.location i{
+    color: orangered;
+    padding-top: 7px;
+    padding-right: 10px;
+
+}
+.icon i{
+    font-size: 22px;
+    margin-top: 10px;
+    background-color: rgb(225, 216, 216);
+}
+#location-btn button{
+    padding: 3px 25px;
+    font-size: 15px;
+    background-color: orangered;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+}
+/* .....footer..... */
+#foo-form h2{
+    color: orangered;
+    font-size: 23px;
+    font-weight: 600;
+
+}
+#foo-form input{
+    width: 290px;
+    padding: 5px 20px;
+    font-size: 15px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid #4d4c5d;
+    border-radius: 3px;
+}
+#foo-form button{
+    padding: 5px 10px;
+    background-color: orangered;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}#foo-left h2{
+    font-size: 25px;
+    font-weight: 700;
+    color: #aeadb3;
+}
+#foo-left p{
+    font-size: 15px;
+    color: #828291;
+}
+#second-row p{
+    color: #828291;
+    margin-top: 20px;
+    
+}
+#foo-right h6{
+    color: white;
+    font-weight: 600;
+    padding-top: 28px;
+}
+#foo-right p{
+    margin-top: 18px;
+   margin-bottom: -12px;
+   font-size: 16px;
+   
+}
+#second-footer{
+    padding-top: 30px;
+   padding-bottom: 35px;
+}
+#copyright{
+    padding: 30px 0px;
+    font-size: 15px;
+    color: #828291;
+    font-weight: 600;
+}
+
+
+@media (max-width: 768px) {
+    #location-info{
+        margin-top: 10px;
+        margin-left: 15px;
+        width: 510px;
+    }
+
+ }
+ /* @media (min-width: 776px) {
+    #second-footer{
+        height: auto;
+    }
+
+ } */
+ 
+
+
+
