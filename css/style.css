@@ -6,6 +6,7 @@
 body{
     background-color: #feecd6;
     font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
 }
 
 /* .....navbar...... */
@@ -18,6 +19,7 @@ body{
 }
 #nav-icon{
     border: 1px solid black;
+    margin-top: 5px;
     padding: 0px 5px;
     height: 35px;
     border: none;
@@ -32,10 +34,11 @@ body{
     color: white;
     font-size: 15px;
     font-weight: 600;
-    margin-left: 10px;
+    margin-left: 7px;
     margin-top: 7px;
     
 }
+
 /* ......services...... */
 #services p{
     color: orangered;
@@ -294,25 +297,6 @@ body{
 
   }
   /* ....... */
-  .arrow i{
-    border: 1px solid black;
-    font-size: 20px;
-    padding: 7px 10px;
-    border-radius: 50px;
-    color: white;
-    background-color: orangered;
-    border: none;
-  }
-  .arrow{
-    position: fixed;
-    width: 50px;
-    height: 50px;
-    bottom: 50px;
-    right: 50px;
-    text-decoration: none;
-    text-align: center;
-    line-height: 50px;
-}
 
 
 @media (max-width: 768px) {
@@ -332,23 +316,21 @@ body{
     }
     #location-info{
         margin-top: -0px;
-        width: 512px;
+
     }
-    .arrow{
-        bottom: 30px;
-        margin-right: -20px;
-    }
-     #nav-icon{
-        width: 70px;
-        margin-left: 220px;
-    } 
+      #nav-icon{
+        width: 50px;
+        padding-left: 15px;
+        
+    }  
 
  }
- @media (min-width: 576px) { 
+
+@media (min-width: 576px) { 
 #card{
     align-items: center;
-    margin-left: 30px;
-}
+    margin-left: 50px;
+} 
 
 }
 
