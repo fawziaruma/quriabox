@@ -51,27 +51,6 @@ body{
     font-weight: 700;
     font-style: initial;
 }
-/* ....award...... */
-.award-info h4{
-    color: orangered;
-    font-weight: 800;
-    padding-top: 10px;
-
-}
-#six{
-    font-size: 35px;
-}
-.award-info h6{
-    color: black;
-    font-weight: 700;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-#award-section{
-    margin-top: 100px;
-    margin-left: 25px;
-    gap: 35px;
-}
-/* ....... */
 .styled-list {
     list-style-type: none; 
     margin-left: -35px;
@@ -86,9 +65,9 @@ body{
     margin-right: 5px; 
   }
   #card{
-    padding-left: 25px;
+     padding:0px 10px;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
-    border: none;
+    border: none; 
   }
   #card button{
     width: 220px;
@@ -111,7 +90,26 @@ body{
     font-weight: 600;
     margin-bottom: 20px;
   }
-  
+/* ....award...... */
+.award-info h4{
+    color: orangered;
+    font-weight: 800;
+    padding-top: 10px;
+
+}
+#six{
+    font-size: 35px;
+}
+.award-info h6{
+    color: black;
+    font-weight: 700;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#award-section{
+    margin-top: 100px;
+    margin-left: 25px;
+    gap: 35px;
+}
 
 /* .....fast delivary...... */
 #fast-delivary{
